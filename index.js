@@ -13,7 +13,7 @@ const container = document.getElementById('container')
 function renderImages() {
     let teamImages = ''
     for (let i = 0; i < imgs.length; i++) {
-        teamImages += `<img class="team-img" src='${imgs[i]}'>`
+        teamImages += `<img alt='Employee in the company' class="team-img" src='${imgs[i]}'>`
     }
     container.innerHTML = teamImages
 }
